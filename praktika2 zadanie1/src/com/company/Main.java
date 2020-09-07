@@ -5,9 +5,10 @@ class Shape
     int w = 40;
     int l = 90;
     int v = 2;
-    public void ToString()
+    @Override
+    public String ToString()
     {
-        System.out.println(this.h + " " + this.w + " " + this.l + " " + this.v);
+        return this.h + " " + this.w + " " + this.l + " " + this.v);
     }
 }
 public class Main {
